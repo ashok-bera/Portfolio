@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--css of skill bars-->
+    <style>
+     h1 {
+      text-align: center;
+      color:#3C1053FF;
+     }
+     .contain {
+      width: 100%;
+      background-color: rgb(231, 231, 231);
+      border-radius: 20px;
+      }
+     .html, .js, .css, .rj, .ds {
+      text-align: center;
+      font-weight: bolder;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      color: white;
+      border-radius: 20px;
+   }
+   .html {
+      width: 85%;
+      background-color: #E69A8DFF;
+   }
+   .js {
+      width: 60%;
+      background-color: #00539CFF;
+   }
+   .css {
+      width: 75%;
+      background-color: #F95700FF;
+   }
+   .ds {
+      width: 55%;
+      background-color: #3C1053FF;
+   }
+   .rj {
+      width: 50%;
+      background-color: #101820FF;
+   }
+    </style>
+    
+    <link href="animate.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+    <!--------------Navbar -------->
+    <header class="wow zoomIn" id="home">
+        <div class="logo">
+            <h1>Ashok</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href = "#home1">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#skill">Skills</a></li>
+                <li><a href = "#work">Projects</a></li>
+                <li><a href = "#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+    </header>
+
+    <!------ Section 2 --->
+
+    <div class="main-header" id="home1">
+        <div class="header-content wow zoomIn" style = "animation-delay: 600ms">
+            <h1 class="header_main_content_h1">
+                Hiii, <br />
+                I'm <span>Ashok</span><br/>
+                Web Developer
+            </h1>
+            <button class="cta">Mail Me</button>
+            <div class="logo-socials">
+                <div class="logo-socials-soc">
+                    <a href="https://www.instagram.com/ashok_k_bera/" target="_blank">
+                        <i class=" fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.github.com/ashok-bera/" target="_blank">
+                        <i class=" fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ashok-bera-a46131171/"  target="_blank">
+                        <i class=" fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header_main_img wow zoomIn" style = "animation-delay:900ms">
+            <img src = "./images/portfolio.png" alt = "" srcset = "" width= "80%" height = "70%" />
+        </div>
+    </div>
+    
+
+    <!------About Section  ------->
+    <div class="about-section" id="about">
+        <div class="about-heading">
+            <h1 class="wow zoomIn">About</h1>
+        </div>
+        <div class="about">
+            <div class="wow zoomIn" style = "animation-delay: 300ms">
+                <img src="./images/profile.jpg" alt = "" height = "320px" width= "70%" />
+            </div>
+            <div class="wow zoomIn" style = "animation-delay: 600ms">
+                <h1> I'm Ashok</h1>
+                 <p>As you would have known my name by now. I'm a computer science geek pursuing my engineering 
+                     from Bangalore institue of Technology. 
+                     I'm exploring the world of Tech and since i have good knowledge of some of the tech subjects
+                     so i thought myslef making a portfolio website.
+                     I have added all my small projects i have done throughout this journey, well for now only screenshots added
+                     but i'm trying to be better and upload links of projects as well.
+                     So, I hope u will enjoy it😉.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--------- Skill Section   ---------->
+    <div class="skill-section" id="skill">
+        <div class="skill-section-heading">
+            <h1 class ="wow zoomIn">SKILLS</h1>
+        </div>
+        <div class="skills">
+            <div class="skill-content wow zoomIn" style = "animation-delay: 300ms">
+
+
+                <h1>Programming Proficiency</h1>
+                <h3>HTML</h3>
+                <div class="contain">
+                <div class="html">85%</div>
+                </div>
+                <h3>CSS</h3>           
+                <div class="contain">
+                <div class="css">75%</div>
+                </div>
+                <h3>JavaScript</h3>
+                <div class="contain">
+                <div class="js">60%</div>
+               </div>
+               <h3>Reactjs</h3>
+               <div class="contain">
+               <div class="rj">50%</div>
+               </div>
+               <h3>DataStructures</h3>
+               <div class="contain">
+               <div class="ds">55%</div>
+               </div>
+            </div>
+            <div class="skill-img wow zoomIn" style = "animation-delay: 600ms">
+                <img src ="./images/program.jpg" alt ="" height= "90%" width = "60%" />
+            </div>
+        </div>
+    </div>
+
+    <!----- Project Section------->
+
+    <div class="work-section" id="work">
+        <div class="work-section-heading">
+            <h1 class ="wow zoomIn">Work</h1>
+        </div>
+
+            <div class="work wow zoomIn" style = "animation-delay: 300ms">
+                <img src ="./images/ecommerce.png" alt =""  />
+                <img src ="./images/hotel.png" alt ="" />
+                <img src ="./images/social.png" alt ="" />
+                <img src ="./images/credit card.png" alt ="" />
+                <img src ="./images/corona.png" alt ="" />
+                <img src ="./images/todolist.png" alt ="" />
+                
+            </div>
+    </div>
+
+    <!----------Contact Me Section---------->
+    <div class="contact-heading wow zoomIn">
+        <h1>Contact</h1>
+    </div>
+    <div class="container wow zoomIn" style = "animation-delay: 300ms" id ="contact">
+        <form action="" method = "">
+            <div class="form-field">
+                <label for = "fullname">FullName</label>
+                <input type = "text"
+                       class = "fullname"
+                       name = "fullname"
+                       placeholder="Fullname"
+                       required
+                       autofocus
+                />
+            </div>
+            <div class="form-field">
+                <label for = "email">Email</label>
+                <input type = "email"
+                       class = "email"
+                       name = "email"
+                       placeholder="Email"
+                       required
+                       autofocus
+                />
+            </div>
+            <div class="form-field">
+                <label for = "message">Message</label>
+                <input type = "message"
+                       class = "message"
+                       name = "message"
+                       placeholder="Message here..."
+                       required
+                       
+                />
+            </div>
+            <div class="form-field btn">
+               <input type = "submit" name = "submit" class = "submit" value = "send" />
+            </div>
+        </form>
+    </div>
+    
+    <!------Footer Section ------->
+    <footer>
+        <div class="logo-socials">
+            <h1>Thank You</h1>
+            <div class="logo-socials-soc">
+                
+                    <a href="https://www.instagram.com/ashok_k_bera/" target="_blank">
+                        <i class=" fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.github.com/ashok-bera/" target="_blank">
+                        <i class=" fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ashok-bera-a46131171/"  target="_blank">
+                        <i class=" fab fa-linkedin"></i>
+                    </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--------------SCript Section ------->
+    <script>
+        // Navbar Sticky effect code
+        window.onscroll = function(){myfunction()};
+        function myfunction(){
+            if(document.body.scrollTop>50|| document.documentElement.scrollTop>50){
+                document.getElementById("home").className = "sticky";
+            }
+            else{
+                document.getElementById("home").className= "";
+            }
+        }
+
+        // Burger code
+        document.querySelector(".burger").addEventListener("click",(e)=>{
+            e.preventDefault();
+            document.querySelector(".navigation").classList.toggle("active");
+        });
+    </script>
+    <!--Wow library -->
+    <script src="wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+</html>
+
+
+
